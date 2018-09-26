@@ -1,0 +1,55 @@
+timezone: GMT+0
+title: Java chatroom
+# rss: /feed.xml
+
+# Config
+
+## URLs
+chat_url: https://chat.stackoverflow.com/rooms/139/java
+github_url: https://github.com/JavaChat
+## End urls
+
+## Color
+main: "ff7b18"
+text: "000"
+a: "ff7b18"
+a-visited: "ff8830"
+a-hover: "ff720a"
+
+primary-color: "282828"
+secondary-color: "ff7b18"
+
+nav-primary: "282828"
+nav-hover: 1e1e1e
+nav-text: f7f7f7
+
+## End color
+
+## Constants
+a-underline: false;
+## End constants
+
+# End config
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+    input: GFM
+    hard_wrap: false
+    highlight: true
+    auto_ids: true
+
+# Again, only used to get some CSS included. 
+theme: minima
+
+baseurl: ""
+
+sass: 
+    sass_dir: assets/css/
+    style: compressed
+    
+plugins:
+    - jekyll-seo-tag
+    - jemoji
+    
