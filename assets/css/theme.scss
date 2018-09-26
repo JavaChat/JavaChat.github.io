@@ -58,7 +58,7 @@ header p, footer p, header h1, header h2, header h3, header h4, header h5, heade
 }
 
 nav a{
-    display: block;
+    display: inline-block;
     padding: 8px;
     color: #{{site.nav-text}};
     font-size: 20px;
@@ -81,7 +81,6 @@ nav a:visited{
     text-decoration: none;
     float:right;
 }
-
 
 @media screen and (min-width: 600px) {
    .container {
@@ -120,6 +119,10 @@ main {
         float: left;
         width: 100%;
         display: none;
+    }
+    
+    nav a{
+        display: block;
     }
     
     #nav-btn {
