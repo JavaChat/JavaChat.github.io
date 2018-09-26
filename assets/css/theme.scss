@@ -1,0 +1,149 @@
+---
+---
+@import "{{site.theme}}";
+
+a{
+    {% if site.a-underline == true  %}
+    text-decoration: underline;
+    {% else %}
+    text-decoration: none;
+    {% endif %}
+    color: #{{site.a}};
+}
+
+a:visited {
+    color: #{{site.a-visited}};
+}
+
+a:hover {
+    color: #{{site.a-hover}} !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+   margin: 0 auto;
+   max-width: 1280px;
+   width: 90%;
+}
+
+header, footer {
+    width: 100%;
+    clear:both;
+    background-color: #{{site.primary-color}} !important;
+    display: block;
+}
+
+footer {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.header>title {
+    font-size: 20px;
+}
+
+// There has to be a better way to do this xd
+header p, footer p, header h1, header h2, header h3, header h4, header h5, header h6, footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
+    color: #{{site.nav-text}};
+}
+
+.align-left{
+    float:left;
+}
+.align-right {
+    float: right;
+}
+
+nav a{
+    display: inline-block;
+    padding: 8px;
+    color: #{{site.nav-text}};
+    font-size: 20px;
+}
+
+nav a:visited{
+    background-color: #{{site.nav-hover}};
+    color: #{{ site.nav-text}};
+}
+
+#nav-name {
+    text-align:center;
+}
+
+#nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    text-decoration: none;
+    float:right;
+}
+
+@media screen and (min-width: 600px) {
+   .container {
+       width: 85%;
+   }
+}
+
+@media screen and (min-width: 990px) {
+   .container {
+        width: 70%;
+    }
+}
+
+// Flexboxing of the elements. Fixes a couple bugs with floating, 
+// and as a positive side-effect, sticks the footer at the bottom
+// of the screen/content (depending on which is bigger)
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+// Nav bar
+
+#nav-name {
+    position: absolute;
+}
+
+@media screen and (max-width: 600px){
+    #nav-links {
+        float: left;
+        width: 100%;
+        display: none;
+    }
+    
+    nav a{
+        display: block;
+    }
+    
+    #nav-btn {
+        position: relative;
+        width: 36px;
+    }
+    
+    #nav-name{
+        margin:0;
+        padding: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+@media screen and(min-width: 601px){
+    #nav-btn {
+        display: none;
+        height: 0px;
+        width:0px;
+    }
+    
+
+}
