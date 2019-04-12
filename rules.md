@@ -9,6 +9,6 @@ title: Chatroom rules
  * **We are not on the clock:** We are a group of professional and hobbyist programmers who like to spend our down time conversing with other like-minded individuals. We are not paid to field questions, provide advice, or tutor. If you would like to ask a question, please remember that this room is not a help desk or consultation service.
  * **Be Professional:** We are responsible for the computer systems that society relies on more and more with every passing day. Please act as though that responsibility weighs heavily on you.
  * **Stay on-topic (in good faith):** This room's main topic of conversation is the Java programming language.
-     * **But general topics are on-topic:** Tools such as Git, or programming concepts that aren't directly related to Java, but programming in general, are allowed.
+     * **But general topics are on-topic:** Discussion about development tools such as version control and IDEs are allowed. General programming concepts that aren't directly related to Java are also allowed.
  * **This is still SO:** Even though this is not part of Stackoverflow's main site, the rules still apply here.
  * **Have fun:** This is the obligatory final rule whose purpose is to lighten the mood and welcome you into the group. Consider yourself welcomed. xD
