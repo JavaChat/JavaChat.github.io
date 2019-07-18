@@ -7,3 +7,7 @@ title: Welcome to the Java Chatroom!
 # Come chat with us!
 
 Come join us on [Stack Overflow chat]({{site.url}})
+
+# Rules
+
+You can find the rules [here](/rules.html)
