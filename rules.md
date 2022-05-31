@@ -22,5 +22,5 @@ title: Chatroom rules
 
  * **We are not on the clock:** We are a group of professional, student, and hobbyist programmers who like to spend our down time conversing with other like-minded individuals. We are not paid to field questions, provide advice, or tutor. If you would like to ask a question, please remember that this room is not a help desk or consultation service.
  * **Don't ask to ask:** [Just ask](http://sol.gfxile.net/dontask.html).
-- Don't ask for answers to your recent Stack Overflow questions. Those who can answer are already watching the queue on the main site.
-    - If your question is more han 5 days old  and hasn't received a useful response, then you may link to it.
+ * **Don't link to recently-posted questions.** Don't ask for answers to your recent Stack Overflow questions. Those who can answer are already watching the queue on the main site.
+    * If your question is more than 5 days old, and hasn't received a useful response, then you may link to it.
